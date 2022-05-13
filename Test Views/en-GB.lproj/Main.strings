@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "7 dias"; ObjectID = "AT3-2c-jAQ"; */
+"AT3-2c-jAQ.text" = "7 dias";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "EXj-w0-fMH"; */
+"EXj-w0-fMH.title" = "Item 1";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "Oxy-KG-Iap"; */
+"Oxy-KG-Iap.title" = "Item 2";
+
+/* Class = "UINavigationItem"; title = "Pacotes"; ObjectID = "QmK-8S-vPU"; */
+"QmK-8S-vPU.title" = "Packages";
+
+/* Class = "UILabel"; text = "PORTO DE GALINHAS"; ObjectID = "ZoK-yD-ufU"; */
+"ZoK-yD-ufU.text" = "PORTO DE GALINHAS";
+
+/* Class = "UILabel"; text = "R$2500,00"; ObjectID = "rJx-qq-Vct"; */
+"rJx-qq-Vct.text" = "R$2500,00";
