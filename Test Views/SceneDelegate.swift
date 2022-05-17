@@ -33,8 +33,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let url = URLContext.url
             if url.absoluteString.contains("openPdf"),
                let defaults = UserDefaults(suiteName: "group.davi.testpdf"),
-               let url = defaults.url(forKey: "slipPdf") {
-                let pdfLoader = SlipPDFLoader(url: url)
+               let url = defaults.url(forKey: "slipPdf"),
+               let password = defaults.string(forKey: "slipPassword") {
+                let pdfLoader = SlipPDFLoader(url: url, password: password)
                 pdfLoader.findBarcodeMLKit()
                     .subscribe(onNext: { [weak self] barcodes in
                         guard let self = self,

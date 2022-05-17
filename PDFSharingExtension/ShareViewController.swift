@@ -22,6 +22,9 @@ class ShareViewController: SLComposeServiceViewController {
     
         // Inform the host that we're done, so it un-blocks its UI. Note: Alternatively you could call super's -didSelectPost, which will similarly complete the extension context.
 //        self.openURL(URL(string: "mytestapp:openpdf")!)
+        if let defaults = UserDefaults(suiteName: "group.davi.testpdf") {
+            defaults.set(self.contentText, forKey: "slipPassword")
+        }
         self.loadFile()
     }
 
